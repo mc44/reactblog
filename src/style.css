@@ -1,0 +1,43 @@
+
+a{
+    text-decoration: none;
+    color:#d2d6df;
+}
+
+a.active{
+    color: white;
+    border-bottom: 4px solid white;
+}
+
+body{
+    background-color: #23272c;
+    color:#d2d6df;
+    font-family: 'Inter', sans-serif;
+    margin:0px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0474b4;
+}
+
+.nav > h1 {
+    margin-right: auto;
+    margin-left: 60px;
+}
+
+.nav-items{
+    list-style: none;
+    display: flex;
+    margin-right:50px;
+}
+
+.nav-items > li{
+    padding: 10px;
+}
+
+.nav-logo{
+    width: 140px;
+    margin-left: 20px;
+}
